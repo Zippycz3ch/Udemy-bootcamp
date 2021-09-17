@@ -1,0 +1,32 @@
+.class { /*class selector*/
+    color: green;
+}
+
+#id { /* id selector*/
+    color: red; 
+}
+
+li a { /* descendant selector */
+    color:teal
+}
+
+.class a{ /* class selector */
+    color: teal; 
+}
+
+h1 + p{     /* Adjacent selector - p directly after h1*/
+    color: red;
+}
+
+div > li { /*Direct child -Child after parent */
+    colo:white
+}
+
+input[type="text"]{
+    width: 300px;
+    color: yellow;
+}
+
+.class a:hover{
+    color: red;
+}
