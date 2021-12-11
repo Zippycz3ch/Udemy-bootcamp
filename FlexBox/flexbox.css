@@ -1,0 +1,5 @@
+img {
+    filter: grayscale(100%);
+    width: 30%;
+    margin: calc(10%/6);
+}
