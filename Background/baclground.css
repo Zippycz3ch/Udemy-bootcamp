@@ -1,0 +1,14 @@
+section {
+    width:80%;
+    height: 800px;
+    background-color: purple;
+    margin: 0 auto;
+    background-image: url("https://wallpaperaccess.com/full/1424963.jpg");
+    margin: auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+
+}
