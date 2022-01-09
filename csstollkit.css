@@ -27,6 +27,12 @@ input[type="text"]{
     color: yellow;
 }
 
+main .sidebar {
+    background-color: rebeccapurple;
+    flex: 1 2 300px;
+}
+
 .class a:hover{
     color: red;
 }
+
