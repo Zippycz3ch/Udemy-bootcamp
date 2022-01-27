@@ -19,7 +19,7 @@ h1 + p{     /* Adjacent selector - p directly after h1*/
 }
 
 div > li { /*Direct child -Child after parent */
-    colo:white
+    color:white
 }
 
 input[type="text"]{
@@ -36,3 +36,8 @@ main .sidebar {
     color: red;
 }
 
+@media (max-width: 900px) and (min-width: 600px){ /* Media Queries */
+   h1 {
+        color: purple;
+    }
+}
